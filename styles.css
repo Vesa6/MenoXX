@@ -1,0 +1,101 @@
+body, h1, nav {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+/* Style the header */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Logo text */
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.navigation a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('Poodul.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Hero content styles */
+.hero-content h1 {
+  font-size: 3em;
+  max-width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.content-section {
+  text-align: center;
+  padding: 50px 10px;
+  color: black;
+  background: #f0f0f0;
+}
+
+/* Style for the form container */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, textarea, button {
+  margin-bottom: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
